@@ -11,7 +11,7 @@ public partial class MainPage : ContentPage
 
 	private async void OnCounterClicked(object sender, EventArgs e)
 	{
-		await Shell.Current.GoToAsync("r?n=true");
+		await Shell.Current.GoToAsync("r");
 	}
 }
 
